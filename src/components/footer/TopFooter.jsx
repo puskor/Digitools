@@ -9,7 +9,7 @@ const TopFooter = () => {
                     <p>Join thousands of professionals who are already using Digitools to work smarter. <br /> Start your free trial today.</p>
                 </div>
                 <div className='flex items-center justify-center gap-5'>
-                    <button className=' bg-white px-4 py-2 rounded-3xl'>Explore Products</button>
+                    <button className=' bg-white px-4 py-2 rounded-3xl '>Explore Products</button>
                     <button className=' text-white border border-white px-4 py-2 rounded-3xl'>View Pricing</button>
                 </div>
                 <div className='text-white text-center'>

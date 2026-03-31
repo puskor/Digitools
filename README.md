@@ -1,4 +1,21 @@
 # React + Vite
+Name of your Project Disitools
+this project give me more confidace
+use tailwind , javascript , vite ,daisy,rect-icons 
+here i use togle button using useState , also it use for manage true false abd manage number
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 

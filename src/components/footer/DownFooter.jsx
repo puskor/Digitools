@@ -33,8 +33,8 @@ const DownFooter = () => {
                         <p>Contact</p>
                     </div>
                     <div className='space-y-2 text-[#627382]'>
-                        <h2 className='text-xl text-white'>Social Links</h2>
-                        <div className='flex gap-4 items-center justify-center'>
+                        <h2 className='text-xl text-white '>Social Links</h2>
+                        <div className='flex gap-4 items-center justify-center md:justify-start'>
                             <div className='bg-white p-2 rounded-full'>
                                 <SlSocialInstagram className='text-black' />
                             </div>

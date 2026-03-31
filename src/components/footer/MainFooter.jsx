@@ -4,7 +4,7 @@ import DownFooter from './DownFooter';
 
 const MainFooter = () => {
     return (
-        <div className='mb-60'>
+        <div>
             <TopFooter></TopFooter>
             <DownFooter/>
         </div>

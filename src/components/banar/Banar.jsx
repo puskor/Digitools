@@ -10,7 +10,7 @@ const Banar = () => {
                     <img src={img1} alt="" />
                     <h1 className='text-[#4F39F6]'>New: AI-Powered Tools Available</h1>
                 </div>
-                <h1 className='text-[72px] font-extrabold'>Supercharge Your <br></br>Digital Workflow</h1>
+                <h1 className='text-[72px] font-extrabold'>Supercharge Your <br></br><span className='bg-gradient-to-bl from-[#4F39F6] to-[#9514FA]  bg-clip-text text-transparent'>Digital Workflow</span></h1>
                 <p>Access premium AI tools, design assets, templates, and productivity
                     software—all in one place. Start creating faster today.
                     Explore Products

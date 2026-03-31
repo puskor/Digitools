@@ -8,10 +8,12 @@ const DownBanner = () => {
                     <h1 className='text-[60px] font-extrabold '>50K+</h1>
                     <h2 className="text-[24px]">Active Users</h2>
                 </div>
+                <div className='w-[1px]  bg-white/50'></div>
                 <div>
                     <h1 className='text-[60px] font-extrabold '>200K+</h1>
                     <h2 className="text-[24px]">Premium Tools</h2>
                 </div>
+                <div className='w-[1px]  bg-white/50'></div>
                 <div>
                     <h1 className='text-[60px] font-extrabold '>4.9</h1>
                     <h2 className="text-[24px]">Rating</h2>

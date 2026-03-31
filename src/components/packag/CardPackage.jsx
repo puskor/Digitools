@@ -11,13 +11,12 @@ const CardPackage = () => {
                     <div className="">
                         <h2 className="text-3xl font-bold">Starter</h2>
                         <p>Perfect for getting started</p>
-                        <div className=' flex items-end '>
-                            <div className='flex items-center text-[40px] font-bold relative'>
+                       <div className='flex items-end'>
+                            <div className='flex items-center text-[40px] font-bold '>
                                 <FaDollarSign className='p-0' />
-                                <h1>29</h1>
-                                <h3 className='absolute top-7 left-[90px] text-[16px] font-normal'>/month</h3>
+                                <h1>0</h1>
                             </div>
-
+                            <h3 className=' text-[16px] font-normal mb-3'>/month</h3>
                         </div>
                     </div>
                     <ul className="mt-6 flex flex-col gap-2 text-xs">
@@ -51,13 +50,12 @@ const CardPackage = () => {
                     <div className="">
                         <h2 className="text-3xl font-bold">Pro</h2>
                         <p>Best for professionals</p>
-                        <div className=' flex items-end '>
-                            <div className='flex items-center text-[40px] font-bold relative'>
+                        <div className='flex items-end'>
+                            <div className='flex items-center text-[40px] font-bold loading-none'>
                                 <FaDollarSign className='p-0' />
                                 <h1>29</h1>
-                                <h3 className='absolute top-7 left-[90px] text-[16px] font-normal'>/month</h3>
                             </div>
-
+                            <h3 className=' text-[16px] font-normal mb-3'>/month</h3>
                         </div>
                     </div>
                     <ul className="mt-6 flex flex-col gap-2 text-xs">
@@ -102,13 +100,12 @@ const CardPackage = () => {
                     <div className="">
                         <h2 className="text-3xl font-bold">Enterprise</h2>
                         <p>For teams and businesses</p>
-                        <div className=' flex items-end '>
-                            <div className='flex items-center text-[40px] font-bold relative'>
+                        <div className='flex items-end'>
+                            <div className='flex items-center text-[40px] font-bold loading-none'>
                                 <FaDollarSign className='p-0' />
-                                <h1>29</h1>
-                                <h3 className='absolute top-7 left-[90px] text-[16px] font-normal'>/month</h3>
+                                <h1>99</h1>
                             </div>
-
+                            <h3 className=' text-[16px] font-normal mb-3'>/month</h3>
                         </div>
                     </div>
                     <ul className="mt-6 flex flex-col gap-2 text-xs">

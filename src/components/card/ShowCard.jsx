@@ -1,4 +1,5 @@
 import React from 'react';
+import { toast } from 'react-toastify';
 
 const ShowCard = ({ item, cardStor, setCardStor,cardTaka,setCardTaka }) => {
 
@@ -6,6 +7,7 @@ const ShowCard = ({ item, cardStor, setCardStor,cardTaka,setCardTaka }) => {
         setCardTaka(cardTaka-item.price)
         const updateData = cardStor.filter(cart => cart.name !== name)
         setCardStor(updateData);
+        toast("Delete successfully...")
     }
 
 
@@ -19,7 +21,7 @@ const ShowCard = ({ item, cardStor, setCardStor,cardTaka,setCardTaka }) => {
                 </div>
             </div>
             <div className='flex justify-around md:justify-end'>
-                <button onClick={() => handelClickItem(item.name,item)} className='btn px-7 btn-primary w-[30%] '>DELETE</button>
+                <button onClick={() => handelClickItem(item.name,item)} className='btn px-7 text-red-700 w-[30%] '>DELETE</button>
             </div>
         </div>
 

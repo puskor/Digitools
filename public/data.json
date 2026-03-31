@@ -1,0 +1,129 @@
+[
+  {
+    "id": 1,
+    "name": "Starter Resume Pack",
+    "description": "Perfect for beginners to create a professional resume quickly.",
+    "price": 110,
+    "period": "one-time",
+    "tag": "new",
+    "tagType": "new",
+    "features": [
+      "10+ templates",
+      "Basic customization",
+      "Export to PDF"
+    ],
+    "icon": "FileText"
+  },
+  {
+    "id": 2,
+    "name": "Pro Resume Builder",
+    "description": "Advanced tools for crafting high-quality resumes.",
+    "price": 9.99,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "100+ templates",
+      "ATS optimization",
+      "Custom sections",
+      "Download in multiple formats"
+    ],
+    "icon": "Briefcase"
+  },
+  {
+    "id": 3,
+    "name": "Career Boost Plan",
+    "description": "Complete toolkit to enhance your job search success.",
+    "price": 19.99,
+    "period": "monthly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": [
+      "Resume builder",
+      "Cover letter generator",
+      "LinkedIn optimization",
+      "Job tracking dashboard"
+    ],
+    "icon": "TrendingUp"
+  },
+  {
+    "id": 4,
+    "name": "Ultimate Job Kit",
+    "description": "All-in-one solution for professionals.",
+    "price": 99.99,
+    "period": "yearly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": [
+      "Unlimited resumes",
+      "Premium templates",
+      "AI suggestions",
+      "Priority support"
+    ],
+    "icon": "Crown"
+  },
+  {
+    "id": 5,
+    "name": "Freelancer Portfolio Pack",
+    "description": "Create stunning portfolios to attract clients.",
+    "price": 14.99,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "Portfolio templates",
+      "Custom domain support",
+      "SEO optimization",
+      "Export as website"
+    ],
+    "icon": "Globe"
+  },
+  {
+    "id": 6,
+    "name": "Interview Preparation Kit",
+    "description": "Get ready for interviews with confidence.",
+    "price": 4.99,
+    "period": "one-time",
+    "tag": "new",
+    "tagType": "new",
+    "features": [
+      "Common questions",
+      "Mock interview tips",
+      "Answer guides",
+      "Confidence boosters"
+    ],
+    "icon": "Mic"
+  },
+  {
+    "id": 7,
+    "name": "Student Starter Pack",
+    "description": "Designed for students entering the job market.",
+    "price": 2.99,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "Entry-level templates",
+      "Internship-focused resumes",
+      "Easy editor",
+      "PDF export"
+    ],
+    "icon": "BookOpen"
+  },
+  {
+    "id": 8,
+    "name": "Executive Pro Suite",
+    "description": "Premium tools for senior professionals.",
+    "price": 149.99,
+    "period": "yearly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": [
+      "Executive templates",
+      "Personal branding tools",
+      "AI career insights",
+      "Dedicated support"
+    ],
+    "icon": "Star"
+  }
+]

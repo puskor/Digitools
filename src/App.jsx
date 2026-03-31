@@ -8,14 +8,28 @@ import Tools from "./components/toolss/Tools"
 import Step from './components/step/Step'
 import Packagg from './components/packag/Packagg'
 import MainFooter from './components/footer/MainFooter'
+import { Suspense, useState } from 'react'
+
 function App() {
+
+  const fetchData = async () => {
+    const response = await fetch("/data.json")
+    const data = await response.json();
+    return data;
+  }
+  const data = fetchData()
+
+  const [cardStor,setCardStor] = useState([]);
+  console.log(cardStor.length);
 
   return (
     <>
       <Navbar></Navbar>
       <Banar></Banar>
       <DownBanner></DownBanner>
-      <Tools></Tools>
+      <Suspense fallback={"hello"}>
+        <Tools data={data} cardStor={cardStor} setCardStor={setCardStor}></Tools>
+      </Suspense>
       <Step></Step>
       <Packagg></Packagg>
       <MainFooter></MainFooter>

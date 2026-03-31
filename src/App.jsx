@@ -20,14 +20,13 @@ function App() {
   const data = fetchData()
 
   const [cardStor,setCardStor] = useState([]);
-  console.log(cardStor.length);
 
   return (
     <>
-      <Navbar></Navbar>
+      <Navbar cardStor={cardStor}></Navbar>
       <Banar></Banar>
       <DownBanner></DownBanner>
-      <Suspense fallback={"hello"}>
+      <Suspense fallback={<span className="loading loading-dots loading-xl flex justify-center items-center"></span>}>
         <Tools data={data} cardStor={cardStor} setCardStor={setCardStor}></Tools>
       </Suspense>
       <Step></Step>

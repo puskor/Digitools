@@ -7,10 +7,10 @@ const CardTools = ({ cardStor, setCardStor }) => {
         setCardStor([])
     }
     return (
-        <div className='h-[400px] border'>
+        <div className='bg-base-100 shadow-sm card'>
             {cardStor.length > 0 ? 
             <div>
-                {cardStor.map((item, index) => <ShowCard key={index} item={item} setCardStor={setCardStor} />)}
+                {cardStor.map((item, index) => <ShowCard key={index} item={item} cardStor={cardStor} setCardStor={setCardStor} />)}
                 <button onClick={() => handelClickEmpty()} className='btn btn-primary w-full mt-20 py-8'> All Clear</button>
             </div>
                 : <ShowEmpty />

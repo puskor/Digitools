@@ -4,7 +4,7 @@ import { FaDollarSign } from 'react-icons/fa';
 const CardPackage = () => {
     const linear = "bg-linear-to-bl from-[#4F39F6] to-[#9514FA]";
     return (
-        <div className='mt-7 grid grid-cols-1 md:grid-cols-3'>
+        <div className='mt-14 grid grid-cols-1 md:grid-cols-3'>
             {/* 1st */}
             <div className="card w-96 bg-base-100 border border-gray-100 shadow-sm">
                 <div className="card-body">

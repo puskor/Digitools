@@ -12,7 +12,7 @@ const Step = () => {
             <div className='flex gap-6 mt-10'>
                 <div className="card w-96 bg-base-100 shadow-sm text-center border-t-2 border-gray-100">
                     <div className='flex justify-end'>
-                        <h1 className='px-3  py-1 mt-2 mr-3 rounded-full bg-linear-to-bl from-[#4F39F6] to-[#9514FA] text-white'>1</h1>
+                        <h1 className='flex justify-center items-center h-8 w-8 text-[14px] mt-2 mr-3 rounded-full bg-linear-to-bl from-[#4F39F6] to-[#9514FA] text-white'>01</h1>
                     </div>
                     <img className='w-20 h-20 mx-auto rounded-full p-4 bg-[#e8e6fd]' src={userImg} alt="" />
                     <h1 className='text-[24px] font-bold mt-6 mb-6'>Create Account</h1>
@@ -20,7 +20,7 @@ const Step = () => {
                 </div>
                 <div className="card w-96 bg-base-100 shadow-sm text-center border-t-2 border-gray-100">
                     <div className='flex justify-end'>
-                        <h1 className='px-3 py-1 mt-2 mr-3 rounded-full bg-linear-to-bl from-[#4F39F6] to-[#9514FA] text-white'>2</h1>
+                        <h1 className='flex justify-center items-center h-8 w-8 text-[14px] mt-2 mr-3 rounded-full bg-linear-to-bl from-[#4F39F6] to-[#9514FA] text-white'>02</h1>
                     </div>
                     <img className='w-20 h-20 mx-auto rounded-full p-4 bg-[#e8e6fd]' src={packegeImg} alt="" />
                     <h1 className='text-[24px] font-bold mt-6 mb-6'>Choose Products</h1>
@@ -28,7 +28,7 @@ const Step = () => {
                 </div>
                 <div className="card w-96 bg-base-100 shadow-sm text-center border-t-2 border-gray-100">
                     <div className='flex justify-end'>
-                        <h1 className='px-3 py-1 mt-2 mr-3 rounded-full bg-linear-to-bl from-[#4F39F6] to-[#9514FA] text-white'>3</h1>
+                        <h1 className='flex justify-center items-center h-8 w-8 text-[14px] mt-2 mr-3 rounded-full bg-linear-to-bl from-[#4F39F6] to-[#9514FA] text-white'>03</h1>
                     </div>
                     <img className='w-20 h-20 mx-auto rounded-full p-4 bg-[#e8e6fd]' src={roketImg} alt="" />
                     <h1 className='text-[24px] font-bold mt-6 mb-6'>Start Creating</h1>

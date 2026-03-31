@@ -20,6 +20,7 @@ function App() {
   const data = fetchData()
 
   const [cardStor,setCardStor] = useState([]);
+  const [cardTaka,setCardTaka] = useState(0);
 
   return (
     <>
@@ -27,7 +28,7 @@ function App() {
       <Banar></Banar>
       <DownBanner></DownBanner>
       <Suspense fallback={<span className="loading loading-dots loading-xl flex justify-center items-center"></span>}>
-        <Tools data={data} cardStor={cardStor} setCardStor={setCardStor}></Tools>
+        <Tools data={data} cardStor={cardStor} setCardStor={setCardStor} cardTaka={cardTaka} setCardTaka={setCardTaka}></Tools>
       </Suspense>
       <Step></Step>
       <Packagg></Packagg>

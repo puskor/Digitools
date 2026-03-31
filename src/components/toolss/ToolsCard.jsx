@@ -1,22 +1,22 @@
 import React, { useState } from 'react';
-import pic1 from "../../assets/products/operation.png"
 import { toast } from 'react-toastify';
 
-const ToolsCard = ({ card ,cardStor,setCardStor}) => {
+const ToolsCard = ({ card, cardStor, setCardStor, cardTaka, setCardTaka }) => {
     const tag = card.tag;
     const [able, setAble] = useState(false);
 
-    const handelClickdisable = (card) => {
-        setCardStor([...cardStor , card])
+    const handelClickAddded = (card) => {
+        setCardStor([...cardStor, card])
         setAble(true)
         toast("Added successfully")
+        setCardTaka(cardTaka + card.price)
     }
     return (
         <div>
             <div className="card w-80 h-full bg-base-100 shadow-sm border-t-2 border-gray-100 hover:-translate-y-2 hover:shadow-xl">
                 <div className="card-body relative">
                     <h1 className={`absolute top-2 right-4 px-2 py-1 ${tag == "popular" ? "bg-amber-100 text-amber-600" : " bg-red-100 text-red-700"}  rounded-2xl`}>{tag}</h1>
-                    <img className='w-15 h-15 border border-gray-300 rounded-full p-2' src={pic1} alt="" />
+                    <img className='w-12 h-12 border border-gray-300 rounded-full p-2' src={card.img} alt="" />
                     <h1 className='text-[24px] font-bold'>{card.name}</h1>
                     <p>{card.description}</p>
                     <div >
@@ -36,7 +36,7 @@ const ToolsCard = ({ card ,cardStor,setCardStor}) => {
 
                     </ul>
                     <div className="mt-6">
-                        <button onClick={() => handelClickdisable(card)} disabled={able} className="bg-linear-to-bl mt-auto from-[#4F39F6] to-[#9514FA] w-full text-white rounded-3xl py-2 px-4 disabled:opacity-50 disabled:cursor-not-allowed">{able ? "Added successfully" : "Buy Now"}</button>
+                        <button onClick={() => handelClickAddded(card)} disabled={able} className="bg-linear-to-bl mt-auto from-[#4F39F6] to-[#9514FA] w-full text-white rounded-3xl py-2 px-4 disabled:opacity-50 disabled:cursor-not-allowed">{able ? "Added successfully" : "Buy Now"}</button>
                     </div>
                 </div>
             </div>

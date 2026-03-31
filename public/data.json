@@ -12,7 +12,8 @@
       "Basic customization",
       "Export to PDF"
     ],
-    "icon": "FileText"
+    "icon": "FileText",
+    "img": "https://i.ibb.co.com/3mcQT0k7/design-tool.png"
   },
   {
     "id": 2,
@@ -28,7 +29,8 @@
       "Custom sections",
       "Download in multiple formats"
     ],
-    "icon": "Briefcase"
+    "icon": "Briefcase",
+    "img": "https://i.ibb.co.com/gMbKndJf/operation.png"
   },
   {
     "id": 3,
@@ -44,7 +46,8 @@
       "LinkedIn optimization",
       "Job tracking dashboard"
     ],
-    "icon": "TrendingUp"
+    "icon": "TrendingUp",
+    "img": "https://i.ibb.co.com/cKqQn6mJ/portfolio.png"
   },
   {
     "id": 4,
@@ -60,7 +63,8 @@
       "AI suggestions",
       "Priority support"
     ],
-    "icon": "Crown"
+    "icon": "Crown",
+    "img": "https://i.ibb.co.com/3mcQT0k7/design-tool.png"
   },
   {
     "id": 5,
@@ -76,7 +80,8 @@
       "SEO optimization",
       "Export as website"
     ],
-    "icon": "Globe"
+    "icon": "Globe",
+    "img": "https://i.ibb.co.com/Zy5pY8F/social-media.png"
   },
   {
     "id": 6,
@@ -92,7 +97,8 @@
       "Answer guides",
       "Confidence boosters"
     ],
-    "icon": "Mic"
+    "icon": "Mic",
+    "img": "https://i.ibb.co.com/3mcQT0k7/design-tool.png"
   },
   {
     "id": 7,
@@ -108,7 +114,8 @@
       "Easy editor",
       "PDF export"
     ],
-    "icon": "BookOpen"
+    "icon": "BookOpen",
+    "img": "https://i.ibb.co.com/gFg5Wfzg/shopping-cart.png"
   },
   {
     "id": 8,
@@ -124,6 +131,7 @@
       "AI career insights",
       "Dedicated support"
     ],
-    "icon": "Star"
+    "icon": "Star",
+    "img": "https://i.ibb.co.com/Zy5pY8F/social-media.png"
   }
 ]

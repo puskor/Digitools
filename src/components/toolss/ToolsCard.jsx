@@ -12,7 +12,7 @@ const ToolsCard = ({ card, cardStor, setCardStor, cardTaka, setCardTaka }) => {
         setCardTaka(cardTaka + card.price)
     }
     return (
-        <div>
+        <div className='flex justify-center'>
             <div className="card w-80 h-full bg-base-100 shadow-sm border-t-2 border-gray-100 hover:-translate-y-2 hover:shadow-xl">
                 <div className="card-body relative">
                     <h1 className={`absolute top-2 right-4 px-2 py-1 ${tag == "popular" ? "bg-amber-100 text-amber-600" : " bg-red-100 text-red-700"}  rounded-2xl`}>{tag}</h1>

@@ -4,7 +4,7 @@ import { TiSocialFacebookCircular, TiSocialTwitter } from 'react-icons/ti';
 
 const DownFooter = () => {
     return (
-        <div className='bg-[#101727]  text-white grid items-center'>
+        <div className='bg-[#101727]  text-white grid items-center text-center lg:text-left'>
             <div className='py-10 container mx-auto '>
                 <div className=' grid md:grid-cols-2 lg:grid-cols-5 gap-10'>
                     <div className='space-y-5'>
@@ -34,7 +34,7 @@ const DownFooter = () => {
                     </div>
                     <div className='space-y-2 text-[#627382]'>
                         <h2 className='text-xl text-white'>Social Links</h2>
-                        <div className='flex gap-4'>
+                        <div className='flex gap-4 items-center justify-center'>
                             <div className='bg-white p-2 rounded-full'>
                                 <SlSocialInstagram className='text-black' />
                             </div>
@@ -50,7 +50,7 @@ const DownFooter = () => {
 
                 <hr className='py-10 mt-10'/>
 
-                <div className='flex justify-between text-[#627382]'>
+                <div className='flex justify-between text-[#627382] px-5'>
                     <h1>© 2026 Digitools. All rights reserved.</h1>
                     <div className='flex gap-5'>
                         <h2>Privacy Policy  </h2>

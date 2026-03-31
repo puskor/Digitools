@@ -2,7 +2,7 @@ import React from 'react';
 
 const ShowEmpty = () => {
     return (
-        <div className="flex h-[400px] border flex-col items-center justify-center h-[70vh] text-center px-4">
+        <div className="flex h-[400px] flex-col items-center justify-center h-[70vh] text-center px-4">
 
             <div className="text-6xl mb-4">EMPTY</div>
 

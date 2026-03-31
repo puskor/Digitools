@@ -2,7 +2,7 @@ import React from 'react';
 
 const TopFooter = () => {
     return (
-        <div className='h-96 mt-20 bg-linear-to-bl from-[#4F39F6] to-[#9514FA] grid items-center'>
+        <div className='py-7 md:py-16 mt-20 bg-linear-to-bl from-[#4F39F6] to-[#9514FA] grid items-center'>
             <div className=' space-y-8'>
                 <div className='container mx-auto text-center text-white'>
                     <h1 className='text-[40px] font-extrabold '>Ready to Transform Your Workflow?</h1>

@@ -4,9 +4,9 @@ import { FaDollarSign } from 'react-icons/fa';
 const CardPackage = () => {
     const linear = "bg-linear-to-bl from-[#4F39F6] to-[#9514FA]";
     return (
-        <div className='mt-14 grid grid-cols-1 md:grid-cols-3'>
+        <div className='mt-14 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 md:gap-6'>
             {/* 1st */}
-            <div className="card w-96 bg-base-100 border border-gray-100 shadow-sm hover:-translate-y-2 hover:shadow-xl">
+            <div className="card md:w-96 bg-base-100 border border-gray-100 shadow-sm hover:-translate-y-2 hover:shadow-xl">
                 <div className="card-body">
                     <div className="">
                         <h2 className="text-3xl font-bold">Starter</h2>
@@ -44,7 +44,7 @@ const CardPackage = () => {
                 </div>
             </div>
             {/* 2nd card */}
-            <div className={`${linear} card w-96  border border-gray-100 shadow-sm relative hover:-translate-y-3 hover:shadow-xl`}>
+            <div className={`${linear} card md:w-96  border border-gray-100 shadow-sm relative hover:-translate-y-3 hover:shadow-xl`}>
                 <h1 className='absolute -top-4 left-[35%] text-[#BB4D00] border bg-[#FEF3C6] px-2 rounded-3xl '>Most Popular</h1>
                 <div className="card-body text-white">
                     <div className="">
@@ -95,7 +95,7 @@ const CardPackage = () => {
                 </div>
             </div>
             {/* 3rd card */}
-            <div className="card w-96 bg-base-100 border border-gray-100 shadow-sm hover:-translate-y-2 hover:shadow-xl">
+            <div className="card md:w-96 bg-base-100 border border-gray-100 shadow-sm hover:-translate-y-2 hover:shadow-xl">
                 <div className="card-body">
                     <div className="">
                         <h2 className="text-3xl font-bold">Enterprise</h2>
